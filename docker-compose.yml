@@ -1,0 +1,6 @@
+services:
+  cookie-api:
+    image: cookie-api
+    ports:
+      - "8010:80"
+    command: poetry run uvicorn main:app --host 0.0.0.0 --port 80
