@@ -5,7 +5,6 @@ description = ""
 authors = ["p0lygun <solankivibhakar82@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "fastapi_cookie_cutter"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
